@@ -1,8 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculator.tests", "calculator.tests\calculator.tests.csproj", "{4703BB40-B1E6-4071-BED9-333B31C6B6AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculatorService", "CalculatorService\calculatorService.csproj", "{E4A5AACF-0685-40C0-8E59-875C7325761A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculatorApp", "CalculatorApp\calculatorApp.csproj", "{57BED3B8-8858-4302-A9D9-99E98F85F32C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,7 +18,48 @@ Global
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4703BB40-B1E6-4071-BED9-333B31C6B6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4703BB40-B1E6-4071-BED9-333B31C6B6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4703BB40-B1E6-4071-BED9-333B31C6B6AE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4703BB40-B1E6-4071-BED9-333B31C6B6AE}.Debug|x64.Build.0 = Debug|Any CPU
+		{4703BB40-B1E6-4071-BED9-333B31C6B6AE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4703BB40-B1E6-4071-BED9-333B31C6B6AE}.Debug|x86.Build.0 = Debug|Any CPU
+		{4703BB40-B1E6-4071-BED9-333B31C6B6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4703BB40-B1E6-4071-BED9-333B31C6B6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4703BB40-B1E6-4071-BED9-333B31C6B6AE}.Release|x64.ActiveCfg = Release|Any CPU
+		{4703BB40-B1E6-4071-BED9-333B31C6B6AE}.Release|x64.Build.0 = Release|Any CPU
+		{4703BB40-B1E6-4071-BED9-333B31C6B6AE}.Release|x86.ActiveCfg = Release|Any CPU
+		{4703BB40-B1E6-4071-BED9-333B31C6B6AE}.Release|x86.Build.0 = Release|Any CPU
+		{E4A5AACF-0685-40C0-8E59-875C7325761A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A5AACF-0685-40C0-8E59-875C7325761A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A5AACF-0685-40C0-8E59-875C7325761A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E4A5AACF-0685-40C0-8E59-875C7325761A}.Debug|x64.Build.0 = Debug|Any CPU
+		{E4A5AACF-0685-40C0-8E59-875C7325761A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E4A5AACF-0685-40C0-8E59-875C7325761A}.Debug|x86.Build.0 = Debug|Any CPU
+		{E4A5AACF-0685-40C0-8E59-875C7325761A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A5AACF-0685-40C0-8E59-875C7325761A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A5AACF-0685-40C0-8E59-875C7325761A}.Release|x64.ActiveCfg = Release|Any CPU
+		{E4A5AACF-0685-40C0-8E59-875C7325761A}.Release|x64.Build.0 = Release|Any CPU
+		{E4A5AACF-0685-40C0-8E59-875C7325761A}.Release|x86.ActiveCfg = Release|Any CPU
+		{E4A5AACF-0685-40C0-8E59-875C7325761A}.Release|x86.Build.0 = Release|Any CPU
+		{57BED3B8-8858-4302-A9D9-99E98F85F32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BED3B8-8858-4302-A9D9-99E98F85F32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BED3B8-8858-4302-A9D9-99E98F85F32C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{57BED3B8-8858-4302-A9D9-99E98F85F32C}.Debug|x64.Build.0 = Debug|Any CPU
+		{57BED3B8-8858-4302-A9D9-99E98F85F32C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{57BED3B8-8858-4302-A9D9-99E98F85F32C}.Debug|x86.Build.0 = Debug|Any CPU
+		{57BED3B8-8858-4302-A9D9-99E98F85F32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BED3B8-8858-4302-A9D9-99E98F85F32C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BED3B8-8858-4302-A9D9-99E98F85F32C}.Release|x64.ActiveCfg = Release|Any CPU
+		{57BED3B8-8858-4302-A9D9-99E98F85F32C}.Release|x64.Build.0 = Release|Any CPU
+		{57BED3B8-8858-4302-A9D9-99E98F85F32C}.Release|x86.ActiveCfg = Release|Any CPU
+		{57BED3B8-8858-4302-A9D9-99E98F85F32C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D58E13E7-25B8-4D44-93BB-6E390AFC7AE7}
 	EndGlobalSection
 EndGlobal

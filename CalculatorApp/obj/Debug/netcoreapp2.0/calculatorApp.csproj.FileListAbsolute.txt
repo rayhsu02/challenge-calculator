@@ -1,0 +1,10 @@
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorApp\bin\Debug\netcoreapp2.0\calculatorApp.deps.json
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorApp\bin\Debug\netcoreapp2.0\calculatorApp.runtimeconfig.json
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorApp\bin\Debug\netcoreapp2.0\calculatorApp.runtimeconfig.dev.json
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorApp\bin\Debug\netcoreapp2.0\calculatorApp.dll
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorApp\bin\Debug\netcoreapp2.0\calculatorApp.pdb
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorApp\obj\Debug\netcoreapp2.0\calculatorApp.csprojAssemblyReference.cache
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorApp\obj\Debug\netcoreapp2.0\calculatorApp.AssemblyInfoInputs.cache
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorApp\obj\Debug\netcoreapp2.0\calculatorApp.AssemblyInfo.cs
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorApp\obj\Debug\netcoreapp2.0\calculatorApp.dll
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorApp\obj\Debug\netcoreapp2.0\calculatorApp.pdb

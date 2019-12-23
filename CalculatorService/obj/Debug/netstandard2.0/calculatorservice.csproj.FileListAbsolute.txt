@@ -1,0 +1,8 @@
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorService\bin\Debug\netstandard2.0\calculatorservice.deps.json
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorService\bin\Debug\netstandard2.0\calculatorservice.dll
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorService\bin\Debug\netstandard2.0\calculatorservice.pdb
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorService\obj\Debug\netstandard2.0\calculatorservice.csprojAssemblyReference.cache
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorService\obj\Debug\netstandard2.0\calculatorservice.AssemblyInfoInputs.cache
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorService\obj\Debug\netstandard2.0\calculatorservice.AssemblyInfo.cs
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorService\obj\Debug\netstandard2.0\calculatorservice.dll
+C:\Users\rayh\Documents\Alogrithms\Resturant360\challenge-calculator\CalculatorService\obj\Debug\netstandard2.0\calculatorservice.pdb
