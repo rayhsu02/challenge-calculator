@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rayh\\Documents\\Alogrithms\\Resturant360\\challenge-calculator\\CalculatorService\\calculatorService.csproj": {}
+    "C:\\Users\\Owner\\Documents\\Alogrithm\\challenge-calculator\\CalculatorService\\calculatorService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rayh\\Documents\\Alogrithms\\Resturant360\\challenge-calculator\\CalculatorService\\calculatorService.csproj": {
+    "C:\\Users\\Owner\\Documents\\Alogrithm\\challenge-calculator\\CalculatorService\\calculatorService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rayh\\Documents\\Alogrithms\\Resturant360\\challenge-calculator\\CalculatorService\\calculatorService.csproj",
+        "projectUniqueName": "C:\\Users\\Owner\\Documents\\Alogrithm\\challenge-calculator\\CalculatorService\\calculatorService.csproj",
         "projectName": "calculatorService",
-        "projectPath": "C:\\Users\\rayh\\Documents\\Alogrithms\\Resturant360\\challenge-calculator\\CalculatorService\\calculatorService.csproj",
-        "packagesPath": "C:\\Users\\rayh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rayh\\Documents\\Alogrithms\\Resturant360\\challenge-calculator\\CalculatorService\\obj\\",
+        "projectPath": "C:\\Users\\Owner\\Documents\\Alogrithm\\challenge-calculator\\CalculatorService\\calculatorService.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Owner\\Documents\\Alogrithm\\challenge-calculator\\CalculatorService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\rayh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

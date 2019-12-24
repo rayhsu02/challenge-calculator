@@ -6,7 +6,8 @@ namespace calculatorService
     {
         public int Add(string inputStr)
         {
-
+            string delimiter  = "\n";
+            inputStr = inputStr.Replace('\n', ',');
             string[] numbers = inputStr.Split(',');
             int total = 0;
 
