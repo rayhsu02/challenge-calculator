@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using calculatorService;
+using System;
 
 namespace calculator.tests
 {
@@ -120,6 +121,91 @@ namespace calculator.tests
             //Act
             var result = _calculator.Add(input);
             int expect = 6;
+
+            //Assert
+            Assert.AreEqual(expect, result);
+        }
+
+        [TestMethod]
+        public void Add_DenyNegativeNumbers_ReturnException()
+        {
+            //Arrange
+            string input = "-1,-3,5";
+
+            //Act
+            //var result = _calculator.Add(input);
+            //int expect = 0;
+
+            //Assert
+            Assert.ThrowsException<Exception>(() => _calculator.Add(input));
+          
+        }
+
+        [TestMethod]
+        public void Add_GranterThan1000_Return8()
+        {
+            //Arrange
+            string input = "2,1001,6";
+
+            //Act
+            var result = _calculator.Add(input);
+            int expect = 8;
+
+            //Assert
+            Assert.AreEqual(expect, result);
+        }
+
+        [TestMethod]
+        public void Add_SingleCustomDelimeter_Return102()
+        {
+            //Arrange
+            string input = "//,\n2,ff,100";
+
+            //Act
+            var result = _calculator.Add(input);
+            int expect = 102;
+
+            //Assert
+            Assert.AreEqual(expect, result);
+        }
+
+        [TestMethod]
+        public void Add_SingleCustomDelimeter_Return7()
+        {
+            //Arrange
+            string input = "//#\n2#5";
+
+            //Act
+            var result = _calculator.Add(input);
+            int expect = 7;
+
+            //Assert
+            Assert.AreEqual(expect, result);
+        }
+
+        [TestMethod]
+        public void Add_AnyLengthCustomDelimeter_Return66()
+        {
+            //Arrange
+            string input = "//[***]\n11***22***33";
+
+            //Act
+            var result = _calculator.Add(input);
+            int expect = 66;
+
+            //Assert
+            Assert.AreEqual(expect, result);
+        }
+
+        [TestMethod]
+        public void Add_MultiCustomDelimeter_Return110()
+        {
+            //Arrange
+            string input = "//[*][!!][r9r]\n11r9r22*hh*33!!44";
+
+            //Act
+            var result = _calculator.Add(input);
+            int expect = 110;
 
             //Assert
             Assert.AreEqual(expect, result);
