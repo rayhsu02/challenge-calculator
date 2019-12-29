@@ -1,4 +1,6 @@
-calculator.tests/obj/
-calculator.tests/bin/
-CalculatorService/obj/
-CalculatorService/bin/
+/Calculator.Tests/obj/
+/calculator.tests/bin/
+/CalculatorService/obj/
+/CalculatorService/bin/
+
+*.dll
